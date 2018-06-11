@@ -1,0 +1,24 @@
+{
+  "name": "es5-sample-project-using-es6-libraries",
+  "version": "1.0.0",
+  "description": "A sample project in ES5 using ES6 libraries through babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmelosantos/es5-sample-project-using-es6-libraries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmelosantos/es5-sample-project-using-es6-libraries/issues"
+  },
+  "homepage": "https://github.com/dmelosantos/es5-sample-project-using-es6-libraries#readme",
+  "dependencies": {
+    "es6-sample-library": "github:dmelosantos/es6-sample-library",
+    "jest": "^23.1.0"
+  }
+}
